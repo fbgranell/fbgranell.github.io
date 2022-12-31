@@ -56,13 +56,13 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="/al-folio/projects/song_recommender/">Song Recommender</a>
+    - title: <a href="/projects/song_recommender/">Song Recommender</a>
       year: 2022
       description: Conceived by clustering over 60.000 songs with similar audio features.
-    - title: <a href="/al-folio/projects/fraud_detector/">Financial fraud detector</a>
+    - title: <a href="/projects/fraud_detector/">Financial fraud detector</a>
       year: 2022
       description: Developed three machine learning models that detect up to 99% of fraudulent transactions with both high recall and precision.
-    - title: <a href="/al-folio/projects/traffic_air_madrid/">Traffic & Air Quality study</a>
+    - title: <a href="/projects/traffic_air_madrid/">Traffic & Air Quality study</a>
       year: 2022
       description: Analyzed the correlation between air quality and traffic flow in Madrid.
       
