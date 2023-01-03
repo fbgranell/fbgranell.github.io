@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Recopilation of my projects.
+description: A recopilation of my projects.
 nav: true
 nav_order: 2
 display_categories: [Work, Fun]
