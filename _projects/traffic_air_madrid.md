@@ -9,7 +9,7 @@ category: Work
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_2.jpg" title="Traffic Air Quality study" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -24,7 +24,8 @@ category: Work
 <a id='section1'></a>
 ### Introduction
 
-In this project we study the relationship between Madrid's air quality and the amount of traffic flow through the city center. It's important to have in mind that the atmosphere is an open system, and thus we expect to find no strong correlation between traffic levels and air quality (since the emissions from vehicles can move to any other area, they don't have to stay in the city). Basically, we are just checking if there's a local relationship between traffic flow fluctuations and the levels of concentration of some specific particles.
+In this project we study the relationship between Madrid's air quality and the amount of traffic flow through the city center. It's important to have in mind that the atmosphere is an open system, and thus we expect to find no strong correlation between traffic levels and air quality (since the emissions from vehicles can move to any other area, they don't have to stay in the city). Basically, we are just checking if there's a local relationship between traffic flow fluctuations and the levels of concentration of some specific particles. You can check the code <a href="https://github.com/fbgr/analysis-traffic-airquality-madrid">here</a>.
+
 
 <a id='section2'></a>
 ### Materials and Methods
@@ -45,10 +46,10 @@ The study only focuses on the city center, and thus some stations had to be filt
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_3.png" title="Traffic stations" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_4.png" title="Air quality stations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -65,7 +66,7 @@ Finally, we model their depedency through a linear regression in order to unders
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_5.png" title="Linear regression" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -77,7 +78,7 @@ From this graph we can see how each vehicle flow affects the local air. However,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_6.png" title="Barplot of slopes" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -92,7 +93,7 @@ These values represent the amount of local emissions an individual vehicle is re
 Scouters are allowed to emit higher concentrations of CO, and thus we did expect these results.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_7.png" title="CO" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -103,7 +104,7 @@ Scouters are allowed to emit higher concentrations of CO, and thus we did expect
 Heavy vehicles such as Buses, Trucks and Vans were the most related to local HC emissions in our data.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_6.png" title="HC" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -114,7 +115,7 @@ Heavy vehicles such as Buses, Trucks and Vans were the most related to local HC 
 According to our data, motorbikes and buses were the most polluting towards local NOx.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p3_airpol_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p3_airpol_8.png" title="NOX" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

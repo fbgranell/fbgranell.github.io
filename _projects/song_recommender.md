@@ -6,8 +6,11 @@ img: assets/img/p1_songrec_2.jpg
 importance: 1
 category: Work
 ---
-<!--- <img src="/al-folio/assets/img/p1_songrec.png" width="80%" /><br> --->
-### Index:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_header.png" title="Spotiy Song Recommender" class="img-fluid rounded " %}
+    </div>
+</div>
 
 * [Introduction](#section1)
 * [Materials and Methods](#section2)
@@ -19,7 +22,8 @@ category: Work
 <a id='section1'></a>
 ### Introduction
 
-In this project, I am working as a data analyst for a multicultural website. My company used Machine Learning to cluster +90.000 songs by their audio features.  The main objective of the project is to develop a song recommender that works in two ways: 1) if your input record is in the current top-100 charts, the system will recommend a similar song (from the same artist or genre) from the top-100, or 2) If your input record is NOT in the current HOT-100 charts, the system will recommend a similar song by downloading the audio features from the record and finding a song from the same cluster. 
+In this project, I am working as a data analyst for a multicultural website. My company used Machine Learning to cluster +90.000 songs by their audio features.  The main objective of the project is to develop a song recommender that works in two ways: 1) if your input record is in the current top-100 charts, the system will recommend a similar song (from the same artist or genre) from the top-100, or 2) If your input record is NOT in the current HOT-100 charts, the system will recommend a similar song by downloading the audio features from the record and finding a song from the same cluster. You can check the code <a href="https://github.com/fbgr/spotify-recommender">here</a>.
+
 
 
 <a id='section2'></a>
@@ -32,13 +36,13 @@ Instead of reading one TOP-100 songs chart from a single country, we read the TO
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_songrec_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_songrec_3.png" title="Greatest Hits 2020/2022" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_songrec_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_songrec_4.png" title="Longest playlist ever" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_songrec_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_songrec_5.png" title="Greatest Hits 2010/2019" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

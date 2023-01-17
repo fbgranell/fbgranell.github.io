@@ -6,8 +6,11 @@ img: assets/img/p2_frauddet.png
 importance: 2
 category: Work
 ---
-<!-- <img src="images/header.jpg"/> -->
-### Index:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p2_header.jpg" title="Fraud detector" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>### Index:
 
 * [Introduction](#section1)
 * [Materials and Methods](#section2)
@@ -22,6 +25,8 @@ category: Work
 In this project, I am developing several models to detect fraudulent transactions through  machine learning methods. 
 
 I used different models: regression, decision tree, random forest and deep learning. The right model to choose depends on the plan against fraud, but the random forest is the better overall. 
+
+You can check the code <a href="https://github.com/fbgr/financial-fraud-detector">here</a>.
 
 <a id='section2'></a>
 ### Materials and Methods
