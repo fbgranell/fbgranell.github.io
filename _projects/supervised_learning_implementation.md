@@ -62,7 +62,7 @@ In all test examples, I found that the cost function decreases in every iteratio
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p4_cost.png" title="Cost function" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/p4_bcost.png" title="Cost function" class="img-fluid rounded " %}
     </div>
 </div>
 
@@ -81,14 +81,14 @@ We can visually see that the parameters found for the logistic regression work a
 - Logistic regression: **Test 1**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p4_example1.png" title="LR example 1" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/p4_bexample1.png" title="LR example 1" class="img-fluid rounded " %}
     </div>
 </div>
 
 - Logistic regression: **Test 2**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p4_example2.png" title="LR example 2" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/p4_bexample2.png" title="LR example 2" class="img-fluid rounded " %}
     </div>
 </div>
 <a id='section5'></a>
