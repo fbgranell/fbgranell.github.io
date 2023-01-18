@@ -35,19 +35,19 @@ I will be using **Numpy**'s library to be able to vectorize the computations and
 
 <a id='section3'></a>
 ### Methods
-Linear regression and logistic regression consist of finding the optimal parameters $$\vec{w},b$$ such as that the cost function is minimal. Hence, all we have to do is solve an optimization problem.
+Linear regression and logistic regression consist of finding the optimal parameters $$\vec{w},b$$ for our prediction $$f_{\vec{w},b}(\vec{x}^{(i)})$$ so that the cost function $$J(\vec{w},b)$$ is minimal. Hence, all left to do is solve an optimization problem. 
 
-In **linear regression**, the most typical cost function used in data analysis is the Squared error equal to 
+In **linear regression**, our prediction is $$f_{\vec{w},b}(\vec{x}^{(i)})=\vec{w}\cdot\vec{x}^{(i)}+b$$. Associated with this, the most typical cost function used in data analysis is the mean Squared error equal to
 
 $$J(\vec{w},b)=\frac{1}{2m}\sum_{i=1}^m(f_{\vec{w},b}(\vec{x}^{(i)})-y^{(i)})^2$$
 
-where $$f_{\vec{w},b}(\vec{x}^{(i)})$$ is the prediction of our model for the sample $$\vec{x}^{(i)}$$. 
-
-In **logistic regression**, our prediction $$f_{\vec{w},b}(\vec{x}^{(i)})$$ is a bit different since it involves the sigmoid $$g(z)=(1+\exp(-z))^{-1}$$. This forces us to change our cost function to make the algorithm efficient:
+In **logistic regression**, our prediction is a bit different since we also have to apply the sigmoid function, $$f_{\vec{w},b}(\vec{x}^{(i)})=(1+\exp(-\vec{w}\cdot\vec{x}^{(i)}-b))^{-1}$$, which prevents outliers from messing up the classification. This forces us to change our cost function to make the algorithm efficient (in particular, $$J$$ needs to be convex):
 
 $$ J (\vec{w},b) = -\frac{1}{m} \sum_{i=1}^m [y^{(i)}\log(f_{\vec{w},b}(\vec{x}^{(i)}))+(1-y^{(i)})\log(1-f_{\vec{w},b}(\vec{x}^{(i)}))] $$
 
-In both cases, we will be using **Gradient descent**: an algorithm that works by driving the parameters into the opposite direction of the gradient (i.e. the direction of steepest descent for that point). When computing the gradient (partial derivates), both cost functions result in the same expressions in terms of $$f_{\vec{w},b}(\vec{x}^{(i)})$$. Thus the algorithm will update the parameters in each iteration according to:
+This function might look scary, but it's quite simple. The cost function is the sum of the loss for each sample. And for each sample, the loss function is either the first term (if $$ y^{(i)}=1 $$) or the second term (if $$ y^{(i)}=0 $$), and these terms increase as the probabilities worsen. Thus, since the algorithm is minimizing $$J$$, we will find the model that computes the best predictions.
+
+In both cases, we will be using **Gradient descent**: an algorithm that works by driving the parameters $$ \vec{w},b$$ into the opposite direction of the gradient (i.e. the direction of steepest descent for that point). When computing the gradient (partial derivates), both cost functions result in the same expressions in terms of $$f_{\vec{w},b}(\vec{x}^{(i)})$$. Thus the algorithm will update the parameters in each iteration according to the same expression:
 
 $$ w \rightarrow w-\alpha \frac{1}{m}\sum_{i=1}^{m}(f_{w,b}(\vec{x}^{(i)})-y^{(i)})x^{(i)} $$
 
@@ -58,7 +58,7 @@ Since we're always moving in the gradient direction, we should expect the cost f
 <a id='section4'></a>
 ### Results
 
-In all test examples, I found that the cost function decreases in every iteration, as we expected. All examples followed this pattern:
+In all test examples, I found that the cost function decreases in every iteration, as expected. All examples followed this pattern:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
