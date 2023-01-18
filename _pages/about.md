@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 I recently graduated from Ironhack's Data Analytics Bootcamp, and before that I used to be a physics student. I would like to pair my programming and mathematical skills to join the world of Data Analysis. I continue to stay up to date by teaching myself new technologies and best practices by using both online resources including Coursera, Kaggle and Youtube, as well as academic books to improve my background on certain areas such as Statistical Inference.
 
 I met the world of data for the first time in my summer internship at Oxford's University, where I studied the population distribution of RR Lyrae stars. I enjoyed every aspect of the statistical analysis as well as the programming behind it. In Ironhack's Bootcamp I learned both how to use and understand a large set of modern technologies to analyze data in many different situations. 
-You can have a look at my projects <a href='/al-folio/projects/'>here</a>.
+You can have a look at my projects <a href='/projects/'>here</a>.
 
 Main technologies: Python, Machine Learning, Web Scraping, SQL, Tableau, Excel, Matlab
 
