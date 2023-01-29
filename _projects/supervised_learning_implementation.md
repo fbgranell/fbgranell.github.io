@@ -2,13 +2,13 @@
 layout: page
 title: Supervised Learning
 description: Personal implementation of logistic regression and linear regression from scratch.
-img: assets/img/p4_header.png
+img: assets/img/f4_header.png
 importance: 3
 category: Fun
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p4_lheader.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/f4_lheader.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -26,7 +26,7 @@ category: Fun
 
 In this side project I am creating from scratch an implementation of linear regression & logistic regression, two pillars of machine learning, with python but without the help of machine learning libraries. 
 
-You can check the code <a href="https://github.com/fbgr/Supervised_learning_implementation">here</a>.
+You can check the code <a href="https://github.com/fbgranell/Supervised_learning_implementation">here</a>.
 
 <a id='section2'></a>
 ### Materials
@@ -62,7 +62,7 @@ In all test examples, I found that the cost function decreases in every iteratio
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p4_bcost.png" title="Cost function" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/f4_bcost.png" title="Cost function" class="img-fluid rounded " %}
     </div>
 </div>
 
@@ -81,14 +81,14 @@ We can visually see that the parameters found for the logistic regression work a
 - Logistic regression: **Test 1**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p4_bexample1.png" title="LR example 1" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/f4_bexample1.png" title="LR example 1" class="img-fluid rounded " %}
     </div>
 </div>
 
 - Logistic regression: **Test 2**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p4_bexample2.png" title="LR example 2" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/f4_bexample2.png" title="LR example 2" class="img-fluid rounded " %}
     </div>
 </div>
 <a id='section5'></a>

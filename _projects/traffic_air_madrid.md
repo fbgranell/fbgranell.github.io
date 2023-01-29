@@ -2,7 +2,7 @@
 layout: page
 title: Traffic & Air Quality study
 description: Analysis on the relationship between Madrid's traffic flow and its own air quality levels.
-img: assets/img/p3_airpol.png
+img: assets/img/p3_main.png
 #redirect: https://unsplash.com
 importance: 3
 category: Work
@@ -13,18 +13,22 @@ category: Work
     </div>
 </div>
 
-### Index
-* [Introduction](#section1)
-* [Materials and Methods](#section2)
-* [Results](#section7)
-* [References](#section10)
-* [License](#section11)
+<div id="table-of-contents">
+  <p>Table of Contents:</p>
+<ul>
+  <li><a href="#section1">Introduction.</a></li>
+  <li><a href="#section2">Materials and Methods.</a></li>
+  <li><a href="#section3">Results.</a></li>
+  <li><a href="#section4">References.</a></li>
+  <li><a href="#section5">License.</a></li>
+</ul></div>
+
 
 
 <a id='section1'></a>
 ### Introduction
 
-In this project we study the relationship between Madrid's air quality and the amount of traffic flow through the city center. It's important to have in mind that the atmosphere is an open system, and thus we expect to find no strong correlation between traffic levels and air quality (since the emissions from vehicles can move to any other area, they don't have to stay in the city). Basically, we are just checking if there's a local relationship between traffic flow fluctuations and the levels of concentration of some specific particles. You can check the code <a href="https://github.com/fbgr/analysis-traffic-airquality-madrid">here</a>.
+In this project we study the relationship between Madrid's air quality and the amount of traffic flow through the city center. It's important to have in mind that the atmosphere is an open system, and thus we expect to find no strong correlation between traffic levels and air quality (since the emissions from vehicles can move to any other area, they don't have to stay in the city). Basically, we are just checking if there's a local relationship between traffic flow fluctuations and the levels of concentration of some specific particles. You can check the code <a href="https://github.com/fbgranell/analysis-traffic-airquality-madrid">here</a>.
 
 
 <a id='section2'></a>
@@ -87,6 +91,7 @@ From this graph we can see how each vehicle flow affects the local air. However,
 
 These values represent the amount of local emissions an individual vehicle is related to. It's important to understand this: the slopes represent how pollution would rise if we were to increase the number of vehicles of type $$i$$ (it's not the total pollution from each vehicle type). 
 
+<a id='section3'></a>
 ### Results
 
 #### Carbon monoxide (CO)
@@ -125,10 +130,9 @@ According to our data, motorbikes and buses were the most polluting towards loca
 
 
 
-<a id='section10'></a>
+<a id='section4'></a>
 ### References
-The data was obtained from <a href="https://datos.madrid.es/portal/site/egob">Madrid's Data Portal</a>.
-
-<a id='section11'></a>
+The air quality and traffic flow data was sourced from <a href="https://datos.madrid.es/portal/site/egob">Madrid's Data Portal</a>. This portal provides open access to a wide range of data and information on the city of Madrid, including environmental and transportation data. All data used in this report was obtained from the Madrid Data Portal and is subject to their terms and conditions of use.
+<a id='section5'></a>
 ### License
 This is an educational project; therefore, all materials can be used freelly.

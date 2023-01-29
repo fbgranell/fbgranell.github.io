@@ -2,7 +2,7 @@
 layout: page
 title: Financial Fraud Detector
 description: A compilation of Machine Learning models that detect fraudulent transactions.
-img: assets/img/p2_frauddet.png
+img: assets/img/p2_main.jpg
 importance: 2
 category: Work
 ---
@@ -10,30 +10,36 @@ category: Work
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/p2_header.jpg" title="Fraud detector" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>### Index:
+</div>
 
-* [Introduction](#section1)
-* [Materials and Methods](#section2)
-* [Results](#section7)
-* [References](#section10)
-* [License](#section11)
+<div id="table-of-contents">
+  <p>Table of Contents:</p>
+<ul>
+  <li><a href="#section1">Introduction.</a></li>
+  <li><a href="#section2">Materials and Methods.</a></li>
+  <li><a href="#section3">Results.</a></li>
+  <li><a href="#section4">References.</a></li>
+  <li><a href="#section5">License.</a></li>
+</ul></div>
+
 
 
 <a id='section1'></a>
 ### Introduction
+We delve through this project into the field of machine learning applied to financial data, exploring its potential and capabilities. Utilizing Python and a vast dataset of financial transactions, we will train several machine learning models and a neural network to determine the most effective approach. We will explore the possibilities of harnessing data to improve financial predictions and analysis.
 
-In this project, I am developing several models to detect fraudulent transactions through  machine learning methods. 
 
-I used different models: regression, decision tree, random forest and deep learning. The right model to choose depends on the plan against fraud, but the random forest is the better overall. 
-
-You can check the code <a href="https://github.com/fbgr/financial-fraud-detector">here</a>.
+The code for this project can be found <a href="https://github.com/fbgranell/financial-fraud-detector">here</a>.
 
 <a id='section2'></a>
 ### Materials and Methods
 
-In the analysis, people might be tempted to remove some correlated columns (0.99 correlation), which means that they're almost a linear combination of another column. Nevertheless, the correlation is not 1, and that means that there are some exceptions. And those exceptions are exactly a risk factor that increases the chances of being a fraudulent transaction, and hence the columns should not be dropped (because we would lose that information). This was proven by comparing models with and without said columns.
+The project was implemented using the **Python** programming language. First, libraries like <em>Pandas</em> and <em>Numpy</em> were used for data wrangling and cleaning. During the data cleaning process, a highly linear correlation of 0.99 was observed between the new balance of an account and the sum of the older balance and the transaction amount. Despite the high correlation, the decision was made to retain these columns in the analysis as exceptions were identified as having a higher likelihood of being fraudulent.
+
+The data was divided into training and testing datasets and several machine learning models were created using the <em>Scikit-learn</em> and <em>Tensorflow</em> libraries. These models were trained and evaluated for performance through a pipeline process. The best-performing model was then selected for further analysis.
 
 The methods of this study include the followings:
+
 * Data cleaning
 * Data wrangling
 * Exploratory data analysis
@@ -42,9 +48,10 @@ The methods of this study include the followings:
 * Hyperparameter optimization
 * Data visualization
 
+<a id='section3'></a>
 ### Results
 
-These are the parameters that measure how good a model is doing. 
+In this section we provide an overview of how the different techniques performed in terms of detecting fraudulent transactions <em>(accuracy</em>, <em>precision</em>, <em>recall</em>,  and <em>F1 score)</em>, helping to shed light on the best-performing model for detecting financial fraud. The results obtained are the following:
 
 <center><table style="text-align: center; vertical-align: middle;" cellpadding ="5">
     <tr>
@@ -76,11 +83,11 @@ These are the parameters that measure how good a model is doing.
         <td>0.87</td>
     </tr>
     <tr>
-        <td>Random Forest</td>
-        <td>99.9%</td>
-        <td>81%</td>
-        <td>95%</td>
-        <td>0.88</td>
+        <td><b>Random Forest</b></td>
+        <td><b>99.9%</b></td>
+        <td><b>81%</b></td>
+        <td><b>95%</b></td>
+        <td><b>0.88</b></td>
     </tr>
     <tr>
         <td>Deep learning</td>
@@ -90,14 +97,15 @@ These are the parameters that measure how good a model is doing.
         <td>0.46</td>
     </tr>
 </table></center>
-<br>If the company wanted to implement a soft safety measure, the deep learning model would be the best way to go, since it detects 98% of the fraudulent transactions. Of all the fraud alerts the model would give, 70% of them would actually be a legit transaction (wrongly flagged), but since in this case the measure is soft, it would not cause a high impact (and this 70% only represents a 0.6% of the total number of transactions). 
+<br>
+In terms of implementing a soft safety measure, a deep learning model would be the most effective option with a detection rate of 98% for fraudulent transactions. While it is noted that 70% of the alerts generated by the model may be false flags, they only represent a small portion (0.6%) of the total transactions and thus would not have a significant impact.
 
-On the other hand, if the measures applied by the model was more agressive towards the customer (ex: blocking the account), Random Forest is the best choice. It only detects 81% of the fraudulent transactions, but it's more precise (only 5% of the alerts are wrongly flagged, which equals a 0.01% of the total number of transactions). With this model, we detect a high portion of the fraud and we don't cause a negative impact towards normal customers. 
+On the other hand, if a more aggressive approach is desired, the Random Forest model may be a better choice as it offers a more precise detection rate of 81% with only a small percentage (0.01%) of false alerts. This allows for the detection of a high proportion of fraud without causing negative effects for legitimate customers. 
 
-<a id='section10'></a>
+<a id='section4'></a>
 ### References
-The synthetic data was obtained through <a href="https://www.kaggle.com/datasets/ealaxi/paysim1">kaggle</a>, and it was created from a  real transactions extracted from one month of financial logs from a mobile money service.
+The synthetic data used in this project was sourced from <a href="https://www.kaggle.com/datasets/ealaxi/paysim1">kaggle</a> and was generated from a sample of one month of financial transactions records from a mobile money service. This data was carefully extracted to accurately reflect real-world scenarios.
 
-<a id='section11'></a>
+<a id='section5'></a>
 ### License
-This is an educational project; therefore, all materials can be used freelly.
+This project is licensed under the **MIT License**, which permits the use, distribution, and modification of the code and materials with proper attribution and the sharing of any modifications made under the same license.

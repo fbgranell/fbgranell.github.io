@@ -2,27 +2,25 @@
 layout: about
 title: About me
 permalink: /
-subtitle: <a href='https://www.linkedin.com/in/fernando-borrero-granell/'>LinkedIn</a>. Junior Data Analyst. #Address. Contacts. Moto. Etc.
+subtitle: <b><a href='https://www.linkedin.com/in/fernando-borrero-granell/'>LinkedIn</a></b>. Junior Data Analyst. #Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: portfolio.png
+  image: profile_mix.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <center><p>Seville, Spain.</p>
-    <p>I am willing to relocate.</p></center>
+    <p>Willing to relocate.</p></center>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+As a recent graduate of Ironhack's Data Analytics Bootcamp, I am eager to put my unique skillset to work in the field of Data Analysis. My background in physics gives me a strong foundation in quantitative reasoning, and my experience in coding allows me to tackle data challenges with both precision and creativity. I am always striving to stay current in the field, and continuously educate myself through online resources as well as academic literature to learn more about technical areas such as Statistical Inference.
 
-I recently graduated from Ironhack's Data Analytics Bootcamp, and before that I used to be a physics student. I would like to pair my programming and mathematical skills to join the world of Data Analysis. I continue to stay up to date by teaching myself new technologies and best practices by using both online resources including Coursera, Kaggle and Youtube, as well as academic books to improve my background on certain areas such as Statistical Inference.
+My journey into the world of data began with a summer internship at Oxford University, where I had the opportunity to study the population distribution of RR Lyrae stars. Later at the bootcamp, I gained a thorough understanding of a wide range of modern technologies and learned how to effectively apply them in various analysis scenarios. If you are interested in viewing any of my projects, you can take a look at all of them in this <a href='/projects/'>section</a>.
 
-I met the world of data for the first time in my summer internship at Oxford's University, where I studied the population distribution of RR Lyrae stars. I enjoyed every aspect of the statistical analysis as well as the programming behind it. In Ironhack's Bootcamp I learned both how to use and understand a large set of modern technologies to analyze data in many different situations. 
-You can have a look at my projects <a href='/projects/'>here</a>.
-
-Main technologies: Python, Machine Learning, Web Scraping, SQL, Tableau, Excel, Matlab
+**Main technologies**: Python, SQL, Machine Learning, Deep Learning, Web Scraping, Tableau, Excel, Matlab.
 
 
 <!---

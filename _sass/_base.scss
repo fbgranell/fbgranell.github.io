@@ -2,6 +2,45 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+ // <F> My code here  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // <f1> Enhancing the project list on mobile phones.
+ // The last part is necessary to avoid breaking figure posts.
+ // I had to create a copy of figure.html called figure_fer.html 
+ @media only screen and (max-width: 600px) {
+  /* styles for phone mode */
+  .grid-item {
+    width: auto !important;
+  }
+  #special-figure, #special-figure img {
+    max-width: 100vw !important;
+  }
+}
+// </f1> ---------------------------------------
+
+// <f2> Creating a style for table of contents
+#table-of-contents li {
+  font-size: 1.25rem;
+  list-style-type: decimal;
+}
+#table-of-contents a {
+  font-size: 1.25rem;
+  color:#2B2E4A;
+}
+#table-of-contents p {
+  font-size: 1.75rem; 
+  margin-bottom: .5rem;
+}
+// </f2> ---------------------------------------
+
+// <f3> creating a paddin for the section in a post.
+h3 {
+  padding-top: 5px;
+}
+// </f3> ---------------------------------------
+
+ // </F> ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
