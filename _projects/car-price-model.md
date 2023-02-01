@@ -32,6 +32,8 @@ category: Work
 
 Predicting the price of a second-hand car can be a tricky business, but with the help of machine learning and XGBoost, we're here to make the process way, way easier. There's no need to rely on chance or intuition when you have a model that can predict prices with a high degree of accuracy at your disposal. Thanks to the power of XGBoost we will learn how to avoid getting ripped off on our next used car purchase in Spain.
 
+You can check the code <a href="https://github.com/fbgranell/car-price-model">here</a>.
+
 <a id='section2'></a>
 ### 2. Materials 
 
