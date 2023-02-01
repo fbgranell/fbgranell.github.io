@@ -2,6 +2,7 @@ github_users:
   - fbgranell
 
 github_repos:
+  - fbgranell/car-price-model
   - fbgranell/spotify-recommender
   - fbgranell/financial-fraud-detector
   - fbgranell/analysis-traffic-airquality-madrid

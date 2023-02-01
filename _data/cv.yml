@@ -56,6 +56,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="/projects/car-price-model/">XGBoost for car pricing</a>
+      year: 2023
+      description: Machine learning model that predicts car prices with an <b>R2 score of 0.95</b>.
     - title: <a href="/projects/song_recommender/">Song Recommender</a>
       year: 2022
       description: Conceived by clustering over 60.000 songs with similar audio features.
