@@ -8,7 +8,7 @@ category: Work
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_header.png" title="Spotiy Song Recommender" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/p1/header.png" title="Spotiy Song Recommender" class="img-fluid rounded " %}
     </div>
 </div>
 
@@ -42,13 +42,13 @@ In order to provide a comprehensive analysis of the music landscape, we took a m
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_songrec_3.png" title="Greatest Hits 2020/2022" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1/playlist3.png" title="Greatest Hits 2020/2022" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_songrec_4.png" title="Longest playlist ever" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1/playlist2.png" title="Longest playlist ever" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_songrec_5.png" title="Greatest Hits 2010/2019" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1/playlist1.png" title="Greatest Hits 2010/2019" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

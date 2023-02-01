@@ -2,13 +2,13 @@
 layout: page
 title: Supervised Learning
 description: Personal implementation of logistic regression and linear regression from scratch.
-img: assets/img/f4_header.png
+img: assets/img/f1_main.png
 importance: 3
 category: Fun
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f4_lheader.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/f1/header.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -62,7 +62,7 @@ In all test examples, I found that the cost function decreases in every iteratio
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f4_bcost.png" title="Cost function" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/f1/bcost.png" title="Cost function" class="img-fluid rounded " %}
     </div>
 </div>
 
@@ -81,14 +81,14 @@ We can visually see that the parameters found for the logistic regression work a
 - Logistic regression: **Test 1**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f4_bexample1.png" title="LR example 1" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/f1/bexample1.png" title="LR example 1" class="img-fluid rounded " %}
     </div>
 </div>
 
 - Logistic regression: **Test 2**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f4_bexample2.png" title="LR example 2" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/f1/bexample2.png" title="LR example 2" class="img-fluid rounded " %}
     </div>
 </div>
 <a id='section5'></a>
