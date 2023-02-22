@@ -1,7 +1,7 @@
 ---
 layout: page
 title: XGBoost for Car Pricing
-description: Machine learning model that uses second-hand car features to predict prices <b>(R2 = 0.95)</b>.
+description: Machine learning model that uses second-hand car features to predict prices <b>(R2 = 0.92)</b>.
 img: assets/img/p4_main.png
 importance: 1
 category: Work
@@ -92,7 +92,7 @@ To wrap up, I am plotting a final map displaying the regional car prices through
 
 <a id='section5'></a>
 ### 5. Results
-The pipeline gave me an initial clue into which were the top models for the project.  Next, I selected the best ones and optimized their hyperparameters through a randomized grid search, where **XGBoost excelled and emerged as the winner**. Its score was comparable to models like Random Forest or the Neural Network, but it boasts greater efficiency and faster training times. The chosen model was then trained and evaluated, providing an estimate of the real error. Specifically, the test data produced a remarkable **R2 value of 0.95**.
+The pipeline gave me an initial clue into which were the top models for the project.  Next, I selected the best ones and optimized their hyperparameters through a randomized grid search, where **XGBoost excelled and emerged as the winner**. Its score was comparable to models like Random Forest or the Neural Network, but it boasts greater efficiency and faster training times. The chosen model was then trained and evaluated, providing an estimate of the real error. Specifically, the test data produced a remarkable **R2 value of 0.92**.
 
 The car price prediction **model is now live and ready to assist** you in all your car-buying adventures. <a href="https://fbgranell-car-price-model-streamlit-app-ep4g59.streamlit.app/">Try it out!</a>
 <iframe
