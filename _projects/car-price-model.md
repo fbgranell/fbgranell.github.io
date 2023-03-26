@@ -13,7 +13,7 @@ category: Work
     </div>
 </div>
 
-<div id="table-of-contents">
+<!-- <div id="table-of-contents">
   <p style="font-size: 1.75rem; margin-bottom: .5rem;">Table of Contents:</p>
 <ul>
   <li style="list-style-type: decimal;"><a href="#section1" style="font-size: 1.30rem; color:#2B2E4A">Introduction.</a></li>
@@ -24,8 +24,7 @@ category: Work
   <li style="list-style-type: decimal;"><a href="#section6" style="font-size: 1.30rem; color:#2B2E4A">References.</a></li>
   <li style="list-style-type: decimal;"><a href="#section7" style="font-size: 1.30rem; color:#2B2E4A">License.</a></li>
 
-</ul></div>
-
+</ul></div> -->
 
 <a id='section1'></a>
 ### 1. Introduction

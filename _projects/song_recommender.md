@@ -3,7 +3,7 @@ layout: page
 title: Spotify Song Recommender
 description: This system classifies +90.000 songs and recommends a similar record to the one given.
 img: assets/img/p1_main.jpg
-importance: 1
+importance: 2
 category: Work
 ---
 <div class="row">
