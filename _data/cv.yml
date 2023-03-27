@@ -26,7 +26,7 @@
         #    - Sub-description 2.
     - title: Bachelor's Degree in Physics (3/4 years completed)
       institution:  University of Seville
-      year: 2016-2020
+      year: 2019-2022
       description:
         -  Linear Algebra & Geometry
         - Mathematical Analysis
@@ -56,6 +56,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="/projects/species-classifier/">510 Species Classification</a>
+      description: CNN that classifies 510 bird species with an accuracy of <b>0.93</b>.
+      year: 2023
     - title: <a href="/projects/car-price-model/">XGBoost for car pricing</a>
       year: 2023
       description: Machine learning model that predicts car prices with an <b>R2 score of 0.92</b>.
