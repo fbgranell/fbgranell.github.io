@@ -2,15 +2,14 @@
 layout: about
 title: About me
 permalink: /
-subtitle: <b><a href='https://www.linkedin.com/in/fernando-borrero-granell/'>LinkedIn</a></b>. Junior Data Analyst. #Address. Contacts. Moto. Etc.
+subtitle: <b><a href='https://www.linkedin.com/in/fernando-borrero-granell/'>LinkedIn</a></b>. Data Scientist Trainee at Jakala. #Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: profile_mix.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <center><p>Seville, Spain.</p>
-    <p>Willing to relocate.</p></center>
+    <center><p>Madrid, Spain.</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
