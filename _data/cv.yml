@@ -8,6 +8,46 @@
     - name: Languages
       value: Spanish, English
 
+- title: Experience
+  type: time_table
+  contents:
+
+    - title: Data Scientist Trainee
+      institution: Jakala Iberia
+      year: 2023 - Present
+      description:
+  
+
+    - title: Summer Internship
+      institution: Astrophysics, University of Oxford
+      year: 2019
+      description:
+        - Absorbed the astronomical and dynamical background involved in the interpretation of data from ESA’s Gaia mission.
+        - Learnt C++ and Python programming languages to use standard tools for the management, analysis and visualization of data. 
+        - Analyzed both spatial coordinates and proper motions from RR Lyrae stars throughout the galaxy.
+        - Developed the first steps towards a new dynamical model of the population of RR Lyrae stars.
+
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="/projects/species-classifier/">510 Species Classification</a>
+      description: CNN that classifies 510 bird species with an accuracy of <b>0.93</b>.
+      year: 2023
+    - title: <a href="/projects/car-price-model/">XGBoost for car pricing</a>
+      year: 2023
+      description: Machine learning model that predicts car prices with an <b>R2 score of 0.92</b>.
+    - title: <a href="/projects/song_recommender/">Song Recommender</a>
+      year: 2022
+      description: Conceived by clustering over 60.000 songs with similar audio features.
+    - title: <a href="/projects/fraud_detector/">Financial fraud detector</a>
+      year: 2022
+      description: Developed three machine learning models that detect up to 99% of fraudulent transactions with both high recall and precision.
+    - title: <a href="/projects/traffic_air_madrid/">Traffic & Air Quality study</a>
+      year: 2022
+      description: Analyzed the correlation between air quality and traffic flow in Madrid.
+      
+
 - title: Education
   type: time_table
   contents:
@@ -39,39 +79,7 @@
             - Resolution methods of an ODE & PDES.
         - Quantum mechanics, Electromagnetism, Classical Mechanics, Thermodynamics, Statistical Mechanics, Chemistry, Classical Electrodynamics, Electric Circuits & Instrumentation and Optics.
 
-- title: Experience
-  type: time_table
-  contents:
 
-    - title: Summer Internship
-      institution: Astrophysics, University of Oxford
-      year: 2019
-      description:
-        - Absorbed the astronomical and dynamical background involved in the interpretation of data from ESA’s Gaia mission.
-        - Learnt C++ and Python programming languages to use standard tools for the management, analysis and visualization of data. 
-        - Analyzed both spatial coordinates and proper motions from RR Lyrae stars throughout the galaxy.
-        - Developed the first steps towards a new dynamical model of the population of RR Lyrae stars.
-
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="/projects/species-classifier/">510 Species Classification</a>
-      description: CNN that classifies 510 bird species with an accuracy of <b>0.93</b>.
-      year: 2023
-    - title: <a href="/projects/car-price-model/">XGBoost for car pricing</a>
-      year: 2023
-      description: Machine learning model that predicts car prices with an <b>R2 score of 0.92</b>.
-    - title: <a href="/projects/song_recommender/">Song Recommender</a>
-      year: 2022
-      description: Conceived by clustering over 60.000 songs with similar audio features.
-    - title: <a href="/projects/fraud_detector/">Financial fraud detector</a>
-      year: 2022
-      description: Developed three machine learning models that detect up to 99% of fraudulent transactions with both high recall and precision.
-    - title: <a href="/projects/traffic_air_madrid/">Traffic & Air Quality study</a>
-      year: 2022
-      description: Analyzed the correlation between air quality and traffic flow in Madrid.
-      
 #- title: Honors and Awards
 #  type: time_table
 #  contents:
