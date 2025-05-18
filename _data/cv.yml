@@ -3,8 +3,10 @@
   contents:
     - name: Full Name
       value: Fernando Borrero Granell
-    - name: Date of Birth
-      value: 18th April 1997
+    #- name: Date of Birth
+    #  value: 18th April 1997
+    - name: Location
+      value: Madrid, Spain
     - name: Languages
       value: Spanish, English
 
@@ -12,10 +14,16 @@
   type: time_table
   contents:
 
-    - title: Data Scientist Trainee
-      institution: Jakala Iberia
+    - title: Data Scientist Consultant
+      institution: Jakala
       year: 2023 - Present
       description:
+        - Applied Market Mix Modeling for marketing performance optimization.
+        - Developed ML models to optimize discounts, maximizing CTR and revenue.
+        - Measured loyalty measurement campaigns, including control group design and revenue impact analysis.
+        - Developed a model to find ideal weights for scoring users/URLs, enhancing decision-making processes.
+        - Implemented customer clustering techniques to enhance targeted marketing strategies.
+
   
 
     - title: Summer Internship
@@ -106,4 +114,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Chess, Music, Sudokus.
+    - <u>Hobbies:</u> Video Games, Chess, Music.

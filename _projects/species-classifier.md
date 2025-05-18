@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 510 Species Classification
-description: Convolutional neural network that classifies 510 bird species with an accuracy of <b>0.93</b>.
+description: CNN-based Computer Vision AI that classifies 510 bird species with high accuracy <b>(0.93)</b>.
 img: assets/img/p5_main.png
 importance: 0
 category: Work

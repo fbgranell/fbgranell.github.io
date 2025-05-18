@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: <b><a href='https://www.linkedin.com/in/fernando-borrero-granell/'>LinkedIn</a></b>. Data Scientist Trainee at Jakala. #Address. Contacts. Moto. Etc.
+subtitle: <b><a href='https://www.linkedin.com/in/fernando-borrero-granell/'>LinkedIn</a></b>. <b>Data Scientist Consultant</b> at Jakala. #Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -15,11 +15,16 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-As a Data Scientist Trainee, I am excited to further develop my skill set and contribute to the ever-evolving field of data science. Building on my foundations in physics and quantitative reasoning, I now apply rigorous data analysis techniques to tackle business challenges. My coding experience equips me to handle diverse datasets with precision, while my creative problem-solving skills enable me to deliver actionable insights.
+I have two years of experience working in marketing analytics. I build models to measure campaign impact, optimize media spend, improve customer targeting and more. My background in physics and strong coding skills help me work efficiently with large, messy datasets and deliver clear, data-driven insights.
 
-My journey into the realm of data began with a summer internship at Oxford University, where I had the chance to study the population distribution of RR Lyrae stars. This experience was enriched by my time at Ironhack’s Data Analytics Bootcamp, where I gained comprehensive knowledge in modern technologies and their practical application across various analytical frameworks. Committed to lifelong learning, I continuously update my expertise through online resources and academic literature, focusing on technical areas such as Statistical Inference, Machine Learning and Deep Learning. If you are interested in viewing any of my projects, you can check them <a href='/projects/'>here</a>.
+I’ve developed models for Marketing Mix Modeling, discount optimization, and user scoring, and regularly apply statistical methods like control group analysis and clustering. In my free time, I’ve also trained AI models for computer vision using convolutional neural networks, and built neural networks from scratch using only NumPy matrices for learning purposes.
 
-**Main technologies**: Python, SQL, Machine Learning, Deep Learning, Web Scraping, Tableau, Excel, Matlab.
+You can find some of my personal projects <a href='/projects/'>here</a>.
+
+**Main technologies:** Python, SQL, Google Cloud Console, Deep Learning,  Machine Learning, Tableau, Web Scraping, R, Azure, BigQuery, Workflows, Cloud Run, Tensorflow, PyTorch, Marketing Mix Modelling
+
+**Hobbies**: I’m passionate about video games and enjoy both competitive and cooperative play. I’ve reached high ranks (Grandmaster, Master, and Diamond) in titles like League of Legends, Overwatch, and Marvel Rivals. I also take part in Mythic+ dungeons and raids in World of Warcraft, where teamwork and strategy are key.
+
 
 
 <!---

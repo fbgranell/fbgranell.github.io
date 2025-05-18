@@ -1,7 +1,7 @@
 ---
 layout: page
 title: XGBoost for Car Pricing
-description: Machine learning model that uses second-hand car features to predict prices <b>(R2 = 0.92)</b>.
+description: Gradient-boosted decision tree that predicts used car prices based on features <b>(R² = 0.92)</b>.
 img: assets/img/p4_main.png
 importance: 1
 category: Work
