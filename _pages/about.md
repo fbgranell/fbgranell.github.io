@@ -15,7 +15,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I have two years of experience working in marketing analytics. I build models to measure campaign impact, optimize media spend, improve customer targeting and more. My background in physics and strong coding skills help me work efficiently with large, messy datasets and deliver clear, data-driven insights.
+I have two years of experience working in advanced analytics. I build models to measure campaign impact, optimize media spend, improve customer targeting and more. My background in physics and strong coding skills help me work efficiently with large, messy datasets and deliver clear, data-driven insights.
 
 I’ve developed models for Marketing Mix Modeling, discount optimization, and user scoring, and regularly apply statistical methods like control group analysis and clustering. In my free time, I’ve also trained AI models for computer vision using convolutional neural networks, and built neural networks from scratch using only NumPy matrices for learning purposes.
 
